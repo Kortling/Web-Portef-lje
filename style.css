@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+    background-color: #0f172a;
+    color: white;
+}
+
+.navbar {
+    background-color: #1e293b;
+    padding: 15px;
+}
+
+.navbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
+.velkommen {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+    background-color: rgb(55, 87, 147);
+}
+
+.bilde_av_meg img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.om_meg {
+    background-color: #155e75;
+    padding: 40px;
+}
+
+.prosjekter {
+    background-color: cadetblue;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 400px;
+    margin: 40px auto;
+    background-color: #38bdf8;
+    padding: 30px;
+    border-radius: 10px;
+    color: black;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #1e293b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0f172a;
+}
+
+.epost {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
